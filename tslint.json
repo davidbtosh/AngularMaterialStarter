@@ -1,14 +1,13 @@
 {
   "rulesDirectory": [
-    "codelyzer"
+    "node_modules/codelyzer"
   ],
   "rules": {
     "arrow-return-shorthand": true,
     "callable-types": true,
     "class-name": true,
     "comment-format": [
-      true,
-      "check-space"
+      true
     ],
     "curly": true,
     "deprecation": {
@@ -81,7 +80,7 @@
       "check-open-brace",
       "check-catch",
       "check-else",
-      "check-whitespace"
+      //"check-whitespace"
     ],
     "prefer-const": true,
     "quotemark": [
