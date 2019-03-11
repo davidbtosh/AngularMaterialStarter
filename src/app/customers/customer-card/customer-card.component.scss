@@ -1,0 +1,22 @@
+.mat-card {
+    max-width: 300px;
+    margin: auto;
+}
+
+.mat-card-avatar {
+    background-image: url('../../../assets/images/spuddy.jpg');
+    background-size: cover;
+}
+
+.mat-card-actions {
+    display: flex;
+}
+
+.mat-card-actions .flex-spacer {
+    width: 100%;
+}
+
+img {
+    margin-top: 10px;
+}
+
