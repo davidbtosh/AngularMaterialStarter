@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { MatButtonModule, MatMenuModule, MatCardModule, MatFormFieldModule, MatProgressBarModule,
          MatInputModule, MatPaginatorModule, MatSortModule, MatSnackBarModule, MatDialogModule, 
-         MatTooltipModule } from '@angular/material';
+         MatTooltipModule, 
+         MatStepperModule,
+         MatAutocomplete,
+         MatAutocompleteModule} from '@angular/material';
 import { MatToolbarModule} from '@angular/material/toolbar';
 import { MatIconModule} from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -44,7 +47,9 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
         MatProgressBarModule,
         MatSnackBarModule,
         MatDialogModule,
-        MatTooltipModule
+        MatTooltipModule,
+        MatStepperModule,
+        MatAutocompleteModule
     ],
     exports: [
         MatButtonModule, 
@@ -70,7 +75,9 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
         MatProgressBarModule,
         MatSnackBarModule,
         MatDialogModule,
-        MatTooltipModule
+        MatTooltipModule,
+        MatStepperModule,
+        MatAutocompleteModule
     ]
 })
 export class MaterialModule { }
